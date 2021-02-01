@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="modules/vue.js"></script>
+</head>
+<body>
+
+  <h2 onclick="hello_world()">Hello World</h2>
+  <div id="test">
+    <div>{{msg}}: {{time}}</div>
+    <button v-on:click="start_timer">start</button>
+    <button v-on:click="stop_timer">stop</button>
+  </div>
+</body>
+</html>
+
+<script src="scripts.js"></script>
